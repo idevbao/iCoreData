@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self persistentContainer];
+    _ManagedObjectContext= _persistentContainer.viewContext; // tra ve context cua data // goi cho nahnh
+    
+    
+    
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
+    _window.rootViewController =navController;
     return YES;
 }
 
@@ -72,7 +79,7 @@
                      * The store could not be migrated to the current model version.
                      Check the error message to determine what the actual problem was.
                     */
-                    NSLog(@"Unresolved error %@, %@", error, error.userInfo);
+                    NSLog(@"Unresolved error %@, %@------------------------", error, error.userInfo);
                     abort();
                 }
             }];

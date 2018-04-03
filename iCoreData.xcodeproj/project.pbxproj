@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A43261A2072798300BB25EE /* Person+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A43260F2072798300BB25EE /* Person+CoreDataClass.m */; };
+		4A43261B2072798300BB25EE /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4326112072798300BB25EE /* Person+CoreDataProperties.m */; };
+		4A43261C2072798300BB25EE /* Phong+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4326132072798300BB25EE /* Phong+CoreDataClass.m */; };
+		4A43261D2072798300BB25EE /* Phong+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4326152072798300BB25EE /* Phong+CoreDataProperties.m */; };
+		4A43261E2072798300BB25EE /* Nhanvien+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4326172072798300BB25EE /* Nhanvien+CoreDataClass.m */; };
+		4A43261F2072798300BB25EE /* Nhanvien+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4326192072798300BB25EE /* Nhanvien+CoreDataProperties.m */; };
 		4A4B5A7020724CDC009480D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4B5A6F20724CDC009480D1 /* main.m */; };
 		4A4B5A7320724CDC009480D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4B5A7220724CDC009480D1 /* AppDelegate.m */; };
 		4A4B5A7620724CDC009480D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4B5A7520724CDC009480D1 /* ViewController.m */; };
@@ -14,9 +20,23 @@
 		4A4B5A7C20724CDC009480D1 /* iCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A4B5A7A20724CDC009480D1 /* iCoreData.xcdatamodeld */; };
 		4A4B5A7E20724CDC009480D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A4B5A7D20724CDC009480D1 /* Assets.xcassets */; };
 		4A4B5A8120724CDC009480D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4B5A7F20724CDC009480D1 /* LaunchScreen.storyboard */; };
+		4A4B5A8A20724CFB009480D1 /* infoDATAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4B5A8920724CFB009480D1 /* infoDATAView.m */; };
+		4A4B5B272072728F009480D1 /* NSDate+converterDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4B5B262072728F009480D1 /* NSDate+converterDate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A43260E2072798300BB25EE /* Person+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataClass.h"; sourceTree = "<group>"; };
+		4A43260F2072798300BB25EE /* Person+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataClass.m"; sourceTree = "<group>"; };
+		4A4326102072798300BB25EE /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
+		4A4326112072798300BB25EE /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
+		4A4326122072798300BB25EE /* Phong+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Phong+CoreDataClass.h"; sourceTree = "<group>"; };
+		4A4326132072798300BB25EE /* Phong+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Phong+CoreDataClass.m"; sourceTree = "<group>"; };
+		4A4326142072798300BB25EE /* Phong+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Phong+CoreDataProperties.h"; sourceTree = "<group>"; };
+		4A4326152072798300BB25EE /* Phong+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Phong+CoreDataProperties.m"; sourceTree = "<group>"; };
+		4A4326162072798300BB25EE /* Nhanvien+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Nhanvien+CoreDataClass.h"; sourceTree = "<group>"; };
+		4A4326172072798300BB25EE /* Nhanvien+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Nhanvien+CoreDataClass.m"; sourceTree = "<group>"; };
+		4A4326182072798300BB25EE /* Nhanvien+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Nhanvien+CoreDataProperties.h"; sourceTree = "<group>"; };
+		4A4326192072798300BB25EE /* Nhanvien+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Nhanvien+CoreDataProperties.m"; sourceTree = "<group>"; };
 		4A4B5A6B20724CDC009480D1 /* iCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A4B5A6F20724CDC009480D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A4B5A7120724CDC009480D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +48,10 @@
 		4A4B5A7D20724CDC009480D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A4B5A8020724CDC009480D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A4B5A8220724CDC009480D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A4B5A8820724CFB009480D1 /* infoDATAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = infoDATAView.h; sourceTree = "<group>"; };
+		4A4B5A8920724CFB009480D1 /* infoDATAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = infoDATAView.m; sourceTree = "<group>"; };
+		4A4B5B252072728F009480D1 /* NSDate+converterDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+converterDate.h"; path = "../NSDate+converterDate.h"; sourceTree = "<group>"; };
+		4A4B5B262072728F009480D1 /* NSDate+converterDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+converterDate.m"; path = "../NSDate+converterDate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +68,20 @@
 		4A4B5A6220724CDC009480D1 = {
 			isa = PBXGroup;
 			children = (
+				4A43260E2072798300BB25EE /* Person+CoreDataClass.h */,
+				4A43260F2072798300BB25EE /* Person+CoreDataClass.m */,
+				4A4326102072798300BB25EE /* Person+CoreDataProperties.h */,
+				4A4326112072798300BB25EE /* Person+CoreDataProperties.m */,
+				4A4326122072798300BB25EE /* Phong+CoreDataClass.h */,
+				4A4326132072798300BB25EE /* Phong+CoreDataClass.m */,
+				4A4326142072798300BB25EE /* Phong+CoreDataProperties.h */,
+				4A4326152072798300BB25EE /* Phong+CoreDataProperties.m */,
+				4A4326162072798300BB25EE /* Nhanvien+CoreDataClass.h */,
+				4A4326172072798300BB25EE /* Nhanvien+CoreDataClass.m */,
+				4A4326182072798300BB25EE /* Nhanvien+CoreDataProperties.h */,
+				4A4326192072798300BB25EE /* Nhanvien+CoreDataProperties.m */,
+				4A4B5B2220726325009480D1 /* CoreData */,
+				4A4B5AEB20725F48009480D1 /* iData */,
 				4A4B5A6D20724CDC009480D1 /* iCoreData */,
 				4A4B5A6C20724CDC009480D1 /* Products */,
 			);
@@ -64,6 +102,10 @@
 				4A4B5A7220724CDC009480D1 /* AppDelegate.m */,
 				4A4B5A7420724CDC009480D1 /* ViewController.h */,
 				4A4B5A7520724CDC009480D1 /* ViewController.m */,
+				4A4B5A8820724CFB009480D1 /* infoDATAView.h */,
+				4A4B5A8920724CFB009480D1 /* infoDATAView.m */,
+				4A4B5B252072728F009480D1 /* NSDate+converterDate.h */,
+				4A4B5B262072728F009480D1 /* NSDate+converterDate.m */,
 				4A4B5A7720724CDC009480D1 /* Main.storyboard */,
 				4A4B5A7D20724CDC009480D1 /* Assets.xcassets */,
 				4A4B5A7F20724CDC009480D1 /* LaunchScreen.storyboard */,
@@ -80,6 +122,20 @@
 				4A4B5A6F20724CDC009480D1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A4B5AEB20725F48009480D1 /* iData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iData;
+			sourceTree = "<group>";
+		};
+		4A4B5B2220726325009480D1 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,9 +210,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A43261B2072798300BB25EE /* Person+CoreDataProperties.m in Sources */,
+				4A4B5B272072728F009480D1 /* NSDate+converterDate.m in Sources */,
 				4A4B5A7620724CDC009480D1 /* ViewController.m in Sources */,
+				4A43261C2072798300BB25EE /* Phong+CoreDataClass.m in Sources */,
 				4A4B5A7320724CDC009480D1 /* AppDelegate.m in Sources */,
+				4A4B5A8A20724CFB009480D1 /* infoDATAView.m in Sources */,
+				4A43261F2072798300BB25EE /* Nhanvien+CoreDataProperties.m in Sources */,
 				4A4B5A7C20724CDC009480D1 /* iCoreData.xcdatamodeld in Sources */,
+				4A43261A2072798300BB25EE /* Person+CoreDataClass.m in Sources */,
+				4A43261D2072798300BB25EE /* Phong+CoreDataProperties.m in Sources */,
+				4A43261E2072798300BB25EE /* Nhanvien+CoreDataClass.m in Sources */,
 				4A4B5A7020724CDC009480D1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +378,7 @@
 				4A4B5A8720724CDC009480D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
